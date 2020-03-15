@@ -1,0 +1,14 @@
+*.swn
+*.swo
+*.pyc
+*.swp
+*.yml.swm
+*.pytest_cache
+.idea
+.DS_Store
+geckodriver.log
+tests/failed_scenarios_screenshots/*
+tests/*.txt
+*.xml
+reports/
+local.conf.sh
