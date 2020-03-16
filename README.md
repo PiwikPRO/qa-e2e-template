@@ -12,9 +12,9 @@ Allow your user to run docker:
 >usermod -G docker -a $USER  
 
 Next, please clone the repository  
-> git clone git@github.com:PiwikPRO/PPMS-integration-e2e-tests.git  
+> git clone git@github.com:PiwikPRO/e2e_template.git  
 >  
-> cd PPMS-integration-e2e-tests  
+> cd e2e_template  
 
 **To run tests from the local environment**  
 
