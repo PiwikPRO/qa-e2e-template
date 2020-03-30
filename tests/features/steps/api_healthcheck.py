@@ -1,4 +1,3 @@
-from behave import *
 from behave import step
 from features.lib.pages import *
 

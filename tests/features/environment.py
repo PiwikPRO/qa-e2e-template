@@ -2,7 +2,6 @@ from features.lib.pages import *
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from features.lib.pages import Api
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
