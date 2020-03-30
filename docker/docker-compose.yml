@@ -16,13 +16,8 @@ services:
       context: ../
       dockerfile: docker/Dockerfile
     tty: true
-    environment:
-      - ADDRESS
-      - SOCKS
-      - HOST_IP
     volumes:
       - ../tests:/opt/tests/
-      - ../reports:/opt/reports
     depends_on:
       - selenium
     networks:

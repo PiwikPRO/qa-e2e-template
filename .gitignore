@@ -7,8 +7,5 @@
 .idea
 .DS_Store
 geckodriver.log
-tests/failed_scenarios_screenshots/*
 tests/*.txt
 *.xml
-reports/
-local.conf.sh
