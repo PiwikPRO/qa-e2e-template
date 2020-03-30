@@ -32,8 +32,11 @@ BEHAVE:
 
 Directory structure:
 > tests/features/lib/pages -> page object definition
+
 > tests/features/lib/pages/__init__.py -> if you want to add a new page object definition file, you must also add it to this file
+
 > tests/features/steps -> steps definition
+
 > tests/features/ -> tests files
 
 If you want to run tests:
