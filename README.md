@@ -1,21 +1,16 @@
+## QA - e2e test template 
 
-# **Usage:**  
+This template configure selenium, behave and pytest that are required to create test scenarios.
+There is an example of test for pytest, as well as for selenium using page object pattern. 
 
-**Step by step**  
+## Installation requirements
 
-For the beginning, please install:  
-* docker-engine 17.03 or newer -> https://docs.docker.com/install/linux/docker-ce/debian/  
-* docker-compose 1.12.0 or newer -> https://docs.docker.com/compose/install/  
+Install docker - https://www.docker.com/get-started 
 
-Allow your user to run docker:  
+Allow your user to run docker (linux only):  
+>sudo usermod -G docker -a $USER  
 
->usermod -G docker -a $USER  
-
-Next, please clone the repository  
-> git clone git@github.com:PiwikPRO/e2e_template.git
->  
-> cd PPMS-e2e_template
-
+## **Usage:**
 
 > bin/run.sh tests
 
@@ -24,11 +19,9 @@ If the test pass (green) it means that the test environment is ready.
 **To run tests from the local environment**  
 Choose your framework:
 
-In file
-docker/start-app.sh
-comment a framework you won't use (line 22,23)
+In [docker/start.app.sh](docker/start-app.sh) comment out a framework you won't use (line 23,24)
 
-BEHAVE:
+**BEHAVE**:
 
 Directory structure:
 > tests/features/lib/pages -> page object definition
@@ -43,7 +36,7 @@ If you want to run tests:
 
 > bin/run.sh tests --tags=your_tags
 
-PYTEST:
+**PYTEST**:
 
 Directory structure:
 tests/ -> tests files
