@@ -20,4 +20,4 @@ set -e
 cd ${code_dir}
 export PYTHONPATH="$(pwd):PYTHONPATH"
 behave
-pytest
+pytest -p no:cacheprovider
