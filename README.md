@@ -17,9 +17,8 @@ Allow your user to run docker (linux only):
 If the test pass (green) it means that the test environment is ready.
 
 **To run tests from the local environment**  
-Choose your framework:
-
-In [docker/start.app.sh](docker/start-app.sh) comment out a framework you won't use (line 23,24)
+You can write tests either in behave or pytest - choose your framework and comment out the one you won't use
+in [docker/start-app.sh](docker/start-app.sh) (line 23,24)
 
 **BEHAVE**:
 
