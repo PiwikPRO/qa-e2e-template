@@ -20,5 +20,5 @@ set -e
 cd ${code_dir}
 export PYTHONPATH="$(pwd):PYTHONPATH"
 # Comment out framework you won't use in your tests
-behave
-pytest -p no:cacheprovider
+behave $@
+pytest -p no:cacheprovider $@
