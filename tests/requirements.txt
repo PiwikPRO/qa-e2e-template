@@ -3,4 +3,4 @@ behave==1.2.6
 pySocks==1.6.8
 pytest==3.5.0
 ConfigParser==3.7.4
-requests==2.20.0
+requests==2.31.0
